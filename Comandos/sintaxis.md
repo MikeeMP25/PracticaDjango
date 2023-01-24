@@ -41,7 +41,7 @@ NOTA: Una vez creado el entorno virtual debes contemplar ciertas reglas de uso s
   - No puedes cambiar la ruta donde esta el directorio del entorno virtual.  
 
 Para desinstalar un paquete del entorno virtual  
-`pipenv uninstall numpy`
+`pipenv uninstall numpy`  
 Para quitar el entorno virtual de proyecto  
 `pipenv --rm`
 
@@ -49,26 +49,5 @@ OTRA FORMA DE EJECUTAR CIERTOS COMANDOS SON:
 - `pipenv run pip install numpay`  Para instalar un paquete.  
 - `pipenv run pip list`  Para ver la lista de paquetes instalados.  
 - `pipenv run pip uninstall numpy` Para desintalar un paquete   
-  
- 
 
-Este comando es para inicializar el entorno virtual sobre el proyecto `pipenv shell` 
-imagen captura
-
-
-### COMANDOS PARA MIGRAR LOS MODELOS A UNA BASE DE DATOS (SQLite)
-
-__Nota: Debes de configurar la clase models.py de la app (portfolio)__
-
-Crea el modelo de proyecto de migraciones: `python3 manage.py makemigrations portfolio`  
-Aplica la migración a la base de datos: `python3 manage.py migrate portfolio` 
-
-Comando para crear un super usuario "Administrador" `python3 manage.py createsuperuser`
-   
-Te pediran los siguientes datos:  
-~~~
- - Username: "Mike"
- - e-mail: "jesus.libra619@gmail.com"
- - password: ******** 
-~~~
 
