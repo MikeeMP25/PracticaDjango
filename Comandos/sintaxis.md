@@ -40,15 +40,17 @@ NOTA: Una vez creado el entorno virtual debes contemplar ciertas reglas de uso s
   - No puedes renombrar el entorno virtual una vez creado.  
   - No puedes cambiar la ruta donde esta el directorio del entorno virtual.  
 
-- Para desinstalar un paquete del entorno virtual
-   `pipenv uninstall numpy`
-   
+Para desinstalar un paquete del entorno virtual  
+`pipenv uninstall numpy`
+Para quitar el entorno virtual de proyecto  
+`pipenv --rm`
+
 OTRA FORMA DE EJECUTAR CIERTOS COMANDOS SON:  
 - `pipenv run pip install numpay`  Para instalar un paquete.  
 - `pipenv run pip list`  Para ver la lista de paquetes instalados.  
-- `pipenv run pip uninstall numpy` Para desintalar un paquete     
+- `pipenv run pip uninstall numpy` Para desintalar un paquete   
   
-Para quitar el entorno virtual de proyecto `pipenv --rm` 
+ 
 
 Este comando es para inicializar el entorno virtual sobre el proyecto `pipenv shell` 
 imagen captura
