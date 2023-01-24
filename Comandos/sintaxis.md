@@ -55,18 +55,6 @@ OTRA FORMA DE EJECUTAR CIERTOS COMANDOS SON:
 Este comando es para inicializar el entorno virtual sobre el proyecto `pipenv shell` 
 imagen captura
 
-### COMANDOS PARA UN NUEVO PROYECTO
-
-Para crear un nuevo proyecto en django ejecutamos el siguiente comando.  
-`pipenv run django-admin startproject webpersonal`  
-
-Para poner en marcha el proyecto usamos el siguiente comando.
-`python3 manage.py runserver` 
-imagen captura.  
-
-Para crear una nueva app dentro del proyecto utilizamos lo siguiente.   
-`python3 manage.py startapp portfolio` 
-
 
 ### COMANDOS PARA MIGRAR LOS MODELOS A UNA BASE DE DATOS (SQLite)
 
