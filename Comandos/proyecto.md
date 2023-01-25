@@ -13,9 +13,11 @@ Para crear un nuevo proyecto en django ejecutamos el siguiente comando.
 `pipenv run django-admin startproject webpersonal`  
 
 
-Este comando es para inicializar el entorno virtual sobre el proyecto `pipenv shell` 
-imagen captura
+Este comando es para inicializar el entorno virtual sobre el proyecto  
+`pipenv shell`<br>  
 
-Para poner en marcha el proyecto usamos el siguiente comando.
-`python3 manage.py runserver` 
-imagen captura.  
+![Activado](Capturas/activando_Env.png)
+
+Para poner en marcha el proyecto usamos el siguiente comando.  
+`python3 manage.py runserver`<br>  
+![Ejecutado](Capturas/runserver.png)
