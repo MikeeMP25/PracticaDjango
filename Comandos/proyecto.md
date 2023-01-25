@@ -7,7 +7,8 @@ Vamos a instalar los paquetes que vamos a utilizar para este proyecto.
 
 Veficar donde sea instalado nuestro entorno virtual `pipenv --venv`
 
-`pipenv run django-admin` podemos ver que tenemos diferentes comandos especificos de este script
+`pipenv run django-admin` podemos ver que tenemos diferentes comandos especificos de este script<br><br>
+![lista](Capturas/comandos-django.png)
 
 Para crear un nuevo proyecto en django ejecutamos el siguiente comando.  
 `pipenv run django-admin startproject webpersonal`  
